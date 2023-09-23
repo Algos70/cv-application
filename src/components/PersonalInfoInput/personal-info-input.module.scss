@@ -1,0 +1,49 @@
+@import "../../App.module.scss";
+$container-height:430px;
+$container-width:60%;
+$container-padding: 40px;
+$input-div-gap: 20px;
+$input-height: 40px;
+$input-radius: 15px;
+$input-item-gap: 5px;
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: $input-div-gap;
+  padding: 25px;
+  margin-top: $natural-margin;
+  background-color: #FFFF;
+  width: calc($container-width - 2 * $container-padding) ;
+  height: calc($container-height - 2 * $container-padding);
+  border-radius: $border-radius;
+  >h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #input{
+    display: flex;
+    flex-direction: column;
+    gap: $input-item-gap;
+
+    >label {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    >input {
+      background-color: #F3F4F6;
+      width: 100%;
+      height: $input-height;
+      border-radius: $input-radius;
+      border: none;
+      padding-left: 10px;
+      outline: none;
+      box-sizing: border-box;
+      
+      &:focus {
+        border: 2px solid #2baefa;
+      }
+    }
+  }
+}

@@ -1,3 +1,4 @@
+$item-gap: 5px;
 .container {
   height: 8rem;
   display: flex;
@@ -13,6 +14,7 @@
     font-weight: bolder;
 
     > h1 {
+      font-size: 2rem;
       margin: 0;
     }
   }
@@ -24,19 +26,19 @@
     color: white;
     flex-wrap: wrap;
     .mail {
-      gap: 5px;
+      gap: $item-gap;
       display: flex;
       align-items: center;
     }
 
     .phone {
-      gap: 5px;
+      gap: $item-gap;
       display: flex;
       align-items: center;
     }
 
     .address {
-      gap: 5px;
+      gap: $item-gap;
       align-items: center;
       display: flex;
     }
