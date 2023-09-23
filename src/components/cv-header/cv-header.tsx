@@ -16,7 +16,7 @@ function CvHeader() {
         </div>
         <div className={styles["phone"]}>
           <Icon path={mdiPhoneOutline} size={1} />
-          <div>546 123 456</div>
+          <div>+90 546 123 456</div>
         </div>
         <div className={styles["address"]}>
           <Icon path={mdilMapMarker} size={1} />
