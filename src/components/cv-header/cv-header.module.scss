@@ -1,0 +1,42 @@
+.container {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #0e374e;
+
+  .name-field {
+    color: white;
+    font-weight: bolder;
+
+    > h1 {
+      margin: 0;
+    }
+  }
+
+  .contact-field {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    .mail {
+      gap: 5px;
+      display: flex;
+      align-items: center;
+    }
+
+    .phone {
+      gap: 5px;
+      display: flex;
+      align-items: center;
+    }
+
+    .address {
+      gap: 5px;
+      align-items: center;
+      display: flex;
+    }
+  }
+}

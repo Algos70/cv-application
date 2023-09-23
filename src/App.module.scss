@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;400;500;700&family=Plus+Jakarta+Sans&family=Poppins:wght@700&family=Roboto:wght@100;400&display=swap");
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  font-family: "Commissioner", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  .input-field {
+    flex: 1;
+  }
+
+  .sheet-field {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}
