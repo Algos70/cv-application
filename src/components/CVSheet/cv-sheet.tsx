@@ -1,4 +1,4 @@
-import CvHeader from "../cv-header/cv-header";
+import CvHeader from "../CvHeader/cv-header";
 import styles from "./cv-sheet.module.scss";
 
 
