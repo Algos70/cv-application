@@ -55,7 +55,7 @@ function PersonalInfoInput({
           type="text"
           name="phone"
           id={styles["phone"]}
-          onChange={(e) => setMail(e.target.value)}
+          onChange={(e) => setPhone(e.target.value)}
         />
       </div>
 
@@ -63,11 +63,11 @@ function PersonalInfoInput({
         <label htmlFor="address">Address</label>
         <input
           placeholder="City/District"
-          value={phone}
+          value={address}
           type="text"
           name="address"
           id={styles["address"]}
-          onChange={(e) => setMail(e.target.value)}
+          onChange={(e) => setAddress(e.target.value)}
         />
       </div>
     </div>
